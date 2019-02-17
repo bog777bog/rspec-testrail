@@ -34,6 +34,10 @@ module RSpec
                          status_id: status,
                          comment: message)
       end
+	  
+	  def  get_id_testrun
+		return testrun['id']
+	  end
 
       def reset
         @options = nil
